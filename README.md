@@ -5,21 +5,9 @@ This application turn your Galileo/Edison to a Guitar tuner.
 # Setup
 You will need an Edison or Galileo with USB audio card and
 Grove base shiled with button and LCD modules
-                                                   +--------+
-                                                   |  Mic   |
-    +----------------------+      +---------+   +--+        |
-    |                      +------+  USB Snd+---+  +--------+
-    |                      |      |  card   +---+
-    |    Edison/Galileo    |      +---------+   |
-    |                      |                    |  +--------+
-    |                      +--------+           +--+ Speaker|
-    +--+-------------------+        |              |        |
-       |                            |              +--------+
-       |                            |
-  +----+-----+        +-------------+--------+
-  | button   |        |     I2C RGB LCD      |
-  |          |        |                      |
-  +----------+        +----------------------+
+                                               
+Edison/Galileo---->USB sound card---->mic/speaker
+   
 
 # Operation
 The user interface consists of a button and LCD.
